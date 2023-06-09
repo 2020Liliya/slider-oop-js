@@ -1,0 +1,37 @@
+html {
+  user-select: none;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.slider .img-wrapper {
+  display: inline-block;
+  width: 500px;
+  min-width: 230px;
+  height: 300px;
+}
+
+.slider .img-wrapper .image {
+  height: 100%;
+  width: 100%;
+}
+
+.slider .button {
+  cursor: pointer;
+  display: inline-block;
+  height: 24px;
+}
